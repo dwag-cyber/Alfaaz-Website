@@ -8,11 +8,7 @@
 	justify-content: center;
 	align-items: flex-end;
 }
-	@media(min-width: 480px) {
-		.row-hero {
-			height: 40rem;
-		}
-	}
+	
 	@media(min-width: 720px) {
 		.row-hero {
 			height: 50rem;
@@ -108,6 +104,10 @@
       right: 0px;
       top: 0px;
     }
+    .event_main{
+      display: flex;
+      flex-direction: column;
+    }
     .nav > .nav-btn > label {
       display: inline-block;
       width: 50px;
@@ -175,3 +175,32 @@
   margin-bottom: 3vw;
 }
 
+.event_cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.teams-slider{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap:5vw
+}
+@media(max-width: 580px) {
+  .row-hero {
+    height: 20rem;
+  }
+  .event_cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .teams-slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:5vh
+  }
+}

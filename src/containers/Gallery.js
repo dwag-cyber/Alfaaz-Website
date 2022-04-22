@@ -25,8 +25,9 @@ function Gallery() {
   return (
     <div class="gallery-main">
       <SimpleImageSlider
+      
         width="100%"
-        height={804}
+        height={604}
         images={images}
         showBullets={true}
         showNavs={true}

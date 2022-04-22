@@ -8,7 +8,7 @@ function Event({eventname}) {
   return (
       <div className='event_main'>
           <h1>Events</h1>
-        <div style={{display:'flex',flexDirection:'row'}}>
+        <div className='event_cards'>
             <EventCard eventname="Youth Parliament"  />
             <EventCard eventname="Poetry Night"/>
             <EventCard eventname="test1"/>

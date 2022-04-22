@@ -230,3 +230,19 @@
     transform: translateX(.125em);
   }
 }
+
+@media(max-width: 480px) {
+  .our-team {
+    height: 35vh;
+    width: 30vh;
+    border: solid;
+    border-radius: .5em;
+    padding: 30px 0 40px;
+    margin-bottom: 30px;
+    background-color: #252525;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+}

@@ -20,7 +20,7 @@ Alfaaz - A two day journey of exploring the depths of our hearts through the 'la
                     <div className="bottom-about-juit">About</div>
                     <div className="bottom-juit">JUIT</div>
                 </div>              
-              <p className="about-juit-content"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore minus quo possimus dolor nesciunt praesentium, excepturi velit quibusdam deleniti iusto sunt eius laboriosam debitis sequi ad in quod vero repudiandae.</p>
+              <p className="about-juit-content"> Jaypee University of Information Technology is recognised by the state government of Himachal Pradesh, India. It was set up by Act No. 14 of 2002[3] vide Extraordinary Gazette notification of Government of Himachal Pradesh dated 23 May 2002.[1] JUIT was approved by the University Grants Commission under section 2(f) of the UGC Act, the University commenced academic activities from July 2002.</p>
             </div>
         </div>
         <div className="about-juit">
