@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.our-team {
+  height: 25vw;
+  width: 20vw;
+  border: solid;
+  border-radius: .5em;
+  padding: 30px 0 40px;
+  margin-bottom: 30px;
+  background-color: #252525;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+}
+
+.our-team .picture {
+  display: inline-block;
+  height: 130px;
+  width: 130px;
+  margin-bottom: 50px;
+  z-index: 1;
+  position: relative;
+}
+
+.our-team .picture::before {
+  content: "";
+  width: 100%;
+  height: 0;
+  border-radius: 50%;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: 135%;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+  transform: scale(3);
+  transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .picture::before {
+  height: 100%;
+}
+
+.our-team .picture::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #ff0000;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.our-team .picture img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  transform: scale(1);
+  transition: all 0.9s ease 0s;
+}
+
+.our-team:hover .picture img {
+  box-shadow: 0 0 0 14px #252525;
+  transform: scale(0.7);
+}
+
+.our-team .title {
+  display: block;
+  font-size: 15px;
+  color: grey;
+  text-transform: capitalize;
+}
+.name{
+  color: white;
+}
+.our-team .social {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #ff0000;
+  position: absolute;
+  bottom: -100px;
+  left: 0;
+  transition: all 0.5s ease 0s;
+}
+
+.our-team:hover .social {
+  bottom: 0;
+}
+
+.our-team .social li {
+  display: inline-block;
+}
+
+.our-team .social li a {
+  display: block;
+  padding: 10px;
+  font-size: 17px;
+  color: white;
+  transition: all 0.3s ease 0s;
+  text-decoration: none;
+}
+
+.our-team .social li a:hover {
+  color: #ff0000;
+  background-color: #252525;
+}
+
+.page-contain {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: #E7F3F1;
+  border: .75em solid #252525;
+  padding: 2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.data-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 20.75em;
+  min-height: 20.75em;
+  overflow: hidden;
+  border-radius: .5em;
+  text-decoration: none;
+  background: #252525;
+  margin: 1em;
+  padding: 2.75em 2.5em;
+  box-shadow: 0 1.5em 2.5em -.5em rgba(#000000, .1);
+  transition: transform .45s ease, background .45s ease;
+  
+    h3 {
+    color: #2E3C40;
+    font-size: 3.5em;
+    font-weight: 600;
+    line-height: 1;
+    padding-bottom: .5em;
+    margin: 0 0 0.142857143em;
+    border-bottom: 2px solid #ff0000;
+    transition: color .45s ease, border .45s ease;
+  }
+
+  h4 {
+    color: #627084;
+    text-transform: uppercase;
+    font-size: 1.125em;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    margin: 0 0 1.777777778em;
+    transition: color .45s ease;
+  }
+
+  p {
+    opacity: 0;
+    color: #FFFFFF;
+    font-weight: 600;
+    line-height: 1.8;
+    margin: 0 0 1.25em;
+    transform: translateY(-1em);
+    transition: opacity .45s ease, transform .5s ease;
+  }
+
+  .link-text {
+    display: block;
+    color: white;
+    font-size: 1.125em;
+    font-weight: 600;
+    line-height: 1.2;
+    margin: auto 0 0;
+    transition: color .45s ease;
+
+    svg {
+      margin-left: .5em;
+      transition: transform .6s ease;
+      color: #ff0000;
+      
+      path {
+        transition: fill .45s ease;
+      }
+    }
+  }
+  
+  &:hover {
+    background: #ff0000;
+    transform: scale(1.02);
+    
+    h3 {
+      color: #FFFFFF;
+      border-bottom-color: white;
+    }
+
+    h4 {
+      color: #FFFFFF;
+    }
+
+    p {
+      opacity: 1;
+      transform: none;
+    }
+
+    .link-text {
+      color: #FFFFFF;
+
+      svg {
+        animation: point 1.25s infinite alternate;
+        
+        path {
+          fill: #FFFFFF;
+        }
+      }
+    }
+  }
+}
+
+@keyframes point {
+  0% {
+   transform: translateX(0);
+  }
+  100% {
+    transform: translateX(.125em);
+  }
+}

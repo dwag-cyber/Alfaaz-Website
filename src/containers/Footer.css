@@ -1,0 +1,159 @@
+@media screen and (min-width:800px) {
+.FOOTER{
+    width: 100%;
+   
+}
+.footer{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    border-top: .5vh solid red;
+    background-color: black;
+
+}
+.footer-content{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+}
+.leftcontent, .mid-content{
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+}
+.leftcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 3vh;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.line{
+    display: flex;
+    flex-direction: column;
+}
+.mid-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 7vh;
+}
+.copyright{
+    color: white;
+    border-top: .5vh solid red;
+    background-color: black;
+    height: 2rem;
+    text-align: center;
+    padding-top: .9vh;
+    font-size: 1rem;
+}
+.contactus, .followuson, .quicklinks{
+    font-weight: bolder;
+    text-decoration: underline red .25rem;
+}
+.follow-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+.qlinks{
+    display: flex;
+    flex-direction: column;
+}
+.location, .phone{
+    display: flex;
+    flex-direction: row;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+    font-size: medium;
+}
+.logo{
+    padding-top: 1.5rem;
+    width: 20%;
+}
+}
+@media screen and (max-width:800px) {
+    .FOOTER{
+        width: 100%;
+        margin-top: 70vh;
+    }
+    .footer{
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        font-size: .5rem;
+        border-top: .3vh solid red;
+        background-color: black;
+    }
+    .footer-content{
+        display: flex;
+        flex-direction: row;
+        gap: 3vw;
+    }
+    .leftcontent, .mid-content{
+        padding-top: 3vh;
+        margin-bottom: 2vh;
+    }
+    .leftcontent{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 3vh;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .line{
+        display: flex;
+        flex-direction: column;
+    }
+    .mid-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        gap: 7vh;
+    }
+    .copyright{
+        color: white;
+        border-top: .3vh solid red;
+        background-color: black;
+        height: 1.2rem;
+        text-align: center;
+        padding-top: .3vh;
+        font-size: .5rem;
+    }
+    .contactus, .followuson, .quicklinks{
+        font-weight: bolder;
+        text-decoration: underline red .1rem;
+    }
+    .follow-content{
+        display: flex;
+        flex-direction: column;
+        gap: 2vh;
+    }
+    .qlinks{
+        display: flex;
+        flex-direction: column;
+    }
+    .location, .phone{
+        display: flex;
+        flex-direction: row;
+    }
+    .icons{
+        display: flex;
+        flex-direction: row;
+        gap: .3rem;
+    }
+    .logo{
+        width: 25%;
+    }
+}
