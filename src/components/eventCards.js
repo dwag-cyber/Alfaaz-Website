@@ -8,7 +8,7 @@ function EventCard({eventname}) {
       <a href="#" class="data-card"> 
     <h3>{eventname}</h3>
     <h4>Alfaaz</h4>
-    <p></p>
+    <p>Aenean lacinia bibendum nulla sed consectetur.</p>
     <span class="link-text">
       View Event
       <svg width="25" height="16" viewBox="0 0 25 16" color="#ff0000" xmlns="http://www.w3.org/2000/svg">
