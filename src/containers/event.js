@@ -9,9 +9,9 @@ function Event({eventname}) {
       <div className='event_main'>
           <h1>Events</h1>
         <div className='event_cards'>
-            <EventCard eventname="Youth Parliament"  />
-            <EventCard eventname="Poetry Night"/>
-            <EventCard eventname="test1"/>
+            <EventCard eventname="Parliament"  />
+            <EventCard eventname="Lafz"/>
+            <EventCard eventname="Abhivyakti"/>
         </div>
     </div>
   );
