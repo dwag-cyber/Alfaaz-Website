@@ -23,7 +23,7 @@ const images = [
 
 function Gallery() {
   return (
-    <div class="gallery-main">
+    <div class="gallery-main" id="Gallery">
       <SimpleImageSlider
       
         width="100%"

@@ -5,7 +5,7 @@ import './index.css'
 
 export default function Team(){
     return(
-        <div className='team_main'>
+        <div className='team_main' id="Teams">
             <h1>Teams</h1>
             <div className="teams-slider">
                 <TeammCards teamname="Tech head" desc="Sahil Thakur" />

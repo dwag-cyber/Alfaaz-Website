@@ -20,10 +20,10 @@ function Navbar() {
     </label>
   </div>
     <div className="nav-links">
-      <a href="" target="_blank">Home</a>
-      <a href="" target="_blank">Gallery</a>
-      <a href="" target="_blank">Teams</a>
-      <a href="" target="_blank">Event Scheduled</a>
+      <a href="#Home" >Home</a>
+      <a href="#Gallery">Gallery</a>
+      <a href="#Teams" >Teams</a>
+      <a href="#Events">Events</a>
       <a href="" target="_blank">Our Sponsors</a>
     </div>
   </div>

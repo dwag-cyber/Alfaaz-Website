@@ -6,7 +6,7 @@ import './index.css'
 
 function Event({eventname}) {
   return (
-      <div className='event_main'>
+      <div className='event_main' id="Events">
           <h1>Events</h1>
         <div className='event_cards'>
             <EventCard eventname="Parliament"  />
