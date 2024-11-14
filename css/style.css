@@ -1545,3 +1545,19 @@ body.mobile-nav-active #mobile-nav-toggle {
     padding: 0px 50px 0px 50px !important;
   }
 }
+
+/* Style for the Register button */
+a[href="#call-to-action"] {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3f9bf7;
+  color: white;
+  border-radius: 15px; /* Rounded edges */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Optional: Add a hover effect */
+a[href="#call-to-action"]:hover {
+  background-color: darkblue;
+}
